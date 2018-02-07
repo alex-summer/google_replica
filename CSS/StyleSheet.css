@@ -1,7 +1,7 @@
 .searchArea{
     display: block;
     margin: auto;
-    width: 35%;
+    text-align: center;
 }
 
 .searchArea input{
@@ -11,9 +11,39 @@
   height: 50px;
   width: 500px;
   border:1px solid #eaeaea;
-  outline:none;
+  outline: none;
 }
 
-#googleImage{
-  text-align: center;
+.Header{
+  Height: 20px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.Header ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Header li{
+  float: left;
+  padding-left: 10px;
+  border: 0px;
+  margin: 10px;
+}
+
+.Header li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.Header li a:hover{
+  text-decoration: underline;
+}
+
+.Right li{
+  float: right;
 }
