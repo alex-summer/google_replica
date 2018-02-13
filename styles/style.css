@@ -1,0 +1,105 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+ list-style-type: none;
+}
+
+.searchArea{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.searchArea li{
+  display: inline-block;
+  padding: 10px;
+  border: 1px;
+  border-style: hidden;
+  border-color: #c6c6c6;
+  background-color: HoneyDew;
+  margin: 10px;
+  opacity: .8;
+}
+
+.searchArea a{
+  color: black;
+  font-size: 14px;
+}
+
+.searchArea li:hover{
+  border-style: solid;
+  opacity: 1;
+}
+
+.searchArea input{
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  height: 50px;
+  width: 500px;
+  border:2px solid #eaeaea;
+  outline: none;
+
+}
+
+.Header{
+  Height: 20px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.Header li, .Footer li{
+  float: left;
+  border: 0px;
+  margin-left: 0px;
+}
+
+.Header a{
+  display: block;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.Header a:hover, .Footer a:hover{
+  text-decoration: underline;
+}
+
+.Header img{
+  opacity: .5;
+}
+
+.Header img:hover{
+  opacity: 1;
+}
+
+.Right li{
+  float: right;
+  margin-right: 10px;
+}
+
+.Footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: HoneyDew;
+  height:auto
+}
+
+.Footer li{
+  opacity: .8;
+}
+
+.Footer a{
+  font-size: 12px;
+  padding: 10px;
+}
+
+
+#signin a{
+  color: white;
+  font-size: 12px;
+  background-color: #4387fd;
+}
